@@ -1,0 +1,230 @@
+/*-------STYLE------*/
+ .panel{
+     min-width:900px;
+     padding-left:300px;
+     padding-right:150px;
+}
+ #logo{
+	 padding-top:180px;
+     padding-left:15%;
+     width:400px;
+}
+ .searchpanel{
+     padding-bottom: 8px;
+}
+ .s{
+	 padding-left:5px;
+	 padding-right:5px;
+     width: 550px;
+     height:39px;
+}
+ .c{
+	 padding-left:5px;
+     width: 320px;
+     height:39px;
+}
+ .u{
+     width: 320px;
+     height:39px;
+}
+ .n{
+	 padding-left:5px;
+     border: none;
+     background-color: #d9d9d9;
+     color:black;
+     width:45px;
+     height:39px;
+}
+ #sbtn{
+     width:60px;
+     height:41px;
+     background-color: #4CAF50;
+     color:white;
+}
+ #ubtn, #cbtn {
+     width:100px;
+     height:41px;
+     background-color: #4CAF50;
+     color:white;
+}
+
+ #Cr, #Up {
+     border: none;
+     width:60px;
+     height:41px;
+     background-color: #d9d9d9;
+     color:black;
+}
+
+
+ .s, .c,#sbtn, #ubtn,#cbtn,#fback{
+     border: none;
+     box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.4);
+     border-radius: 2%;
+}
+ .s:hover,.c:hover{
+     box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.7);
+}
+ #sbtn:hover,#ubtn:hover,#cbtn:hover,#fback:hover{
+     cursor: pointer;
+     box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.7);
+}
+ #Cr:hover, #Up:hover{
+     color:grey;
+     cursor: pointer;
+}
+ .s:focus, .c:focus, #sbtn:focus, #ubtn:focus,#cbtn:focus,fback:focus{
+     box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.7);
+     outline: none;
+}
+ .u:focus, .n:focus, #Cr:focus, #Up:focus{
+     outline: none;
+}
+ .op{
+     width:120px;
+     height:41px;
+     background-color: #d9d9d9;
+     color:black;
+     border: none;
+}
+ .op:hover {
+     cursor: pointer;
+     color: grey;
+}
+ .op:focus{
+     color: grey;
+	outline: none;
+}
+
+#fback{     
+	outline: none;
+	margin-left:10px;
+	width:165px;
+    height:39px;
+    background-color: #4CAF50;
+    color:white;
+}
+#result1,#result2{
+	 font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	 margin-left:0px;
+	 display: inline;
+	 color: grey;
+     font-size: 16px;
+}
+
+#Cr{
+	margin-bottom:10px;
+}
+
+li{
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	font-size: 18px;
+	padding:20px;
+	margin-left:200px;
+    width:950px;
+    background-color: #f2f2f2;
+    color: black;
+}
+
+li:hover{
+	cursor: pointer;
+    color: #4CAF50;
+}
+
+.PRbox{
+    border-radius: 2%;
+	margin-left:627px;
+	display: inline-block;
+	width:176px;
+    height:41px;
+    background-color: #d9d9d9;
+    border: none;
+}
+
+#check{
+	margin-left:30px;
+	cursor: pointer;
+	height: 25px;
+    width: 25px;
+	cursor: pointer;
+	outline:none;
+}
+
+#checktxt{
+	display: inline-block;
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	font-size: 16px;
+}
+
+#pagepanel{
+	width:995px;
+	margin-left:200px;
+	margin-top:20px;
+	margin-bottom:5px;
+}
+
+.navigationButtons{
+	cursor:pointer;
+	margin-bottom:20px;
+	display: inline-block;
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	font-size: 16px;
+	text-decoration:none; 
+	color:inherit;
+}
+
+.navigationButtons:hover{
+	color: #4CAF50;
+}
+
+.paginationDisplay{
+	text-align:center;
+	width:995px;
+	margin-left:200px;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility:hidden;
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	font-size: 12px;
+	text-align: center;
+	margin-top:5px;
+    padding: 5px;
+    position: absolute;
+    width: 200px;
+    background-color: #f2f2f2;
+    color:#666666;
+    z-index: 1;
+	opacity: 0;
+    transition: opacity 0.4s;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+	bottom: 100%;
+    left: 10%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent #f2f2f2 transparent ;
+}
+
+.tooltip:hover .tooltiptext {
+	visibility:visible;
+	opacity: 1;
+}
+
+#bf{
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	font-size: 14px;
+	padding:10px;
+	margin-left:200px;
+}
